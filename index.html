@@ -5,11 +5,92 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;family=Poppins:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Seaweed+Script&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/bootstrap.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <title>Food Delivery</title>
 </head>
 
 <body>
+    <header class="header-app">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <div class="logo-header__wrapper">
+                    <a href="" class="logo-header__link">
+                        <img src="./assets/img/logo.svg" alt="" class="">
+                    </a>
+                </div>
+                <div id="navbar-main" class="navbar-collapse">
+                    <ul class="navbar-nav navbar-center">
+                        <li class="nav-item navbar-main__item">
+                            <a href="" class="nav-link navbar-main__link">Home</a>
+                        </li>
+                        <li class="nav-item navbar-main__item">
+                            <a href="" class="nav-link navbar-main__link">Review</a>
+                        </li>
+                        <li class="nav-item navbar-main__item">
+                            <a href="" class="nav-link navbar-main__link">About Us</a>
+                        </li>
+                        <li class="nav-item navbar-main__item">
+                            <a href="" class="nav-link navbar-main__link">Contact Us</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav navbar-right">
+                        <li class="nav-item navbar-main__item">
+                            <a href="" class="nav-link navbar-main__link navbar-main__btn-sign-up">Sign up</a>
+                        </li>
+                        <li class="nav-item navbar-main__item">
+                            <a href="" class="nav-link navbar-main__link navbar-main__btn-cart">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                    <path fill="#fff" d="M12 0C5.386 0 0 5.386 0 12s5.386 12 12 12 12-5.386 12-12S18.614 0 12 0zm0 5.637a2.608 2.608 0 012.595 2.596c0 .446-.39.837-.837.837a.822.822 0 01-.837-.837.93.93 0 00-.921-.921.93.93 0 00-.92.92.822.822 0 01-.838.838.822.822 0 01-.837-.837A2.608 2.608 0 0112 5.637zm6.753 6.112l-1.367 4.967c-.14.921-.92 1.647-1.87 1.647H8.484c-.95 0-1.73-.726-1.786-1.675l-1.368-4.94c-.028-.083-.028-.139-.028-.222 0-1.005.81-1.786 1.814-1.814h9.851a1.81 1.81 0 011.814 1.814c0 .083 0 .14-.027.223z"></path>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="banner-app">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 col-lg-6">
+                    <div class="banner-content">
+                        <h3 class="banner-content__title-1">Hungry?</h3>
+                        <h1 class="banner-content__title-2">Wait a minute for delicious.</h1>
+                        <div class="banner-content__desc">Best cooks and best delivery guys all at your service. Hot tasty food will reach you in 20mins.</div>
+                    </div>
+                    <div class="banner-input">
+                        <div class="row">
+                            <div class="col-xl-9 col-lg-11">
+                                <form class="banner-input__form">
+                                    <input type="text" class="banner-input__input" placeholder="Enter your delivery location">
+                                    <span class="banner-input__icon"></span>
+                                    <button class="banner-input__btn">Discover
+                                         <img src="https://www.webhuq.com/templates/food_delivery_landing_10766/assets/img/arrow.svg" alt="" class="banner-input__img">
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="banner-register">
+                        <p class="banner-register__title">Already member of our communty? <a href="" class="banner-register__link">Sign in</a></p>
 
+                    </div>
+                </div>
+
+                <div class="col-xl-6 col-lg-6">
+                    <div class="banner-img">
+                        <img class="banner-img__img img-fluid" src="./assets/img/banner.svg" alt="">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 </body>
 
 </html>
