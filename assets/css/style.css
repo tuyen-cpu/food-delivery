@@ -547,6 +547,184 @@
             color: #fff;
         }
         
+        .popular-app {
+            padding: 50px 0;
+        }
+        
+        .popular-app__title {
+            margin: auto;
+            margin-bottom: 50px;
+            align-items: center;
+            width: 50%;
+        }
+        
+        .popular-app__title-1 {
+            font-family: Seaweed Script;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 40px;
+            line-height: 50px;
+            text-align: center;
+            color: #ff4415;
+            margin-bottom: 8px;
+        }
+        
+        .popular-app__title-2 {
+            font-family: Inter;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 52px;
+            line-height: 62px;
+            text-align: center;
+            color: #101010;
+            margin-bottom: 0px;
+        }
+        
+        .popular-app__item {
+            overflow: hidden;
+            background: #FFFFFF;
+            border: 1.2px solid #EFEFEF;
+            border-radius: 24px;
+            margin-bottom: 40px;
+        }
+        
+        .popular-app__item:hover {
+            box-shadow: 0px 50px 100px -50px rgb(0, 0, 0, 20%);
+            transition: 0.3s ease all;
+            border: 1.2px solid transparent;
+        }
+        
+        .popular-app__item-picture {
+            padding: 10px;
+            height: 200px;
+        }
+        
+        .popular-app__item-img {
+            object-fit: contain;
+        }
+        
+        .popular-app__item-list-start {
+            display: flex;
+            margin-bottom: 10px;
+        }
+        
+        .popular-app__item-info {
+            padding: 20px;
+        }
+        
+        .popular-app__item-list-start li+li {
+            margin-left: 3px;
+        }
+        
+        .popular-app__item-title {
+            font-family: Inter;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 24px;
+            margin-bottom: 12px;
+            display: -webkit-box;
+            -o-text-overflow: ellipsis;
+            text-overflow: ellipsis;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 1;
+            overflow: hidden;
+            color: #181818;
+        }
+        
+        .popular-app__item-des {
+            font-family: Inter;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 26px;
+            margin-bottom: 20px;
+            color: #181818;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 2;
+            overflow: hidden;
+        }
+        
+        .popular-app__price-and-btn {
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .popular-app__price {
+            font-family: Inter;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 24px;
+            margin-bottom: 0px;
+            color: #060606;
+        }
+        
+        .popular-app__list-btn {
+            display: flex;
+        }
+        
+        .popular-app__btn+.popular-app__btn {
+            margin-left: 10px;
+        }
+        
+        .popular-app__heart-btn {
+            background-color: #FF4415;
+        }
+        
+        .popular-app__share-btn {
+            background-color: #171717;
+        }
+        
+        .popular-app__btn {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 32px;
+            width: 32px;
+            border-radius: 8px;
+            border: none;
+        }
+        
+        .popular-app__see-all {
+            display: flex;
+        }
+        
+        .popular-app__see-all-btn {
+            margin: auto;
+            border: none;
+            background: -o-linear-gradient(348.02deg, #46C266 41.25%, #2FB652 98.64%);
+            background: linear-gradient( 101.98deg, #46C266 41.25%, #2FB652 98.64%);
+            border-radius: 16px;
+            font-family: Inter;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 19px;
+            color: #FFFFFF;
+            width: 188px;
+            height: 62px;
+            padding-left: 20px;
+            position: relative;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+        }
+        
+        .popular-app__see-all-btn:hover .popular-app__see-all-img {
+            right: 15px;
+        }
+        
+        .popular-app__see-all-img {
+            position: absolute;
+            right: 20px;
+            width: auto;
+            height: auto;
+            transition: 0.3s ease all;
+        }
+        
         @media (max-width: 1399px) {
             .banner-input__input {
                 width: 260px;
