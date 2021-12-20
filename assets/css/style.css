@@ -426,7 +426,7 @@
             margin-bottom: 30px;
         }
         
-        .commitment-app__title-1 {
+        .title-top-section {
             font-family: Seaweed Script;
             font-style: normal;
             font-weight: normal;
@@ -437,7 +437,7 @@
             margin-bottom: 8px;
         }
         
-        .commitment-app__title-2 {
+        .title-top-section-2 {
             font-family: Inter;
             font-style: normal;
             font-weight: bold;
@@ -556,17 +556,6 @@
             margin-bottom: 50px;
             align-items: center;
             width: 50%;
-        }
-        
-        .popular-app__title-1 {
-            font-family: Seaweed Script;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 40px;
-            line-height: 50px;
-            text-align: center;
-            color: #ff4415;
-            margin-bottom: 8px;
         }
         
         .popular-app__title-2 {
