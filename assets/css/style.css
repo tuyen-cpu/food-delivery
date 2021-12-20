@@ -1,6 +1,7 @@
         * {
             margin: 0;
             padding: 0;
+            box-sizing: border-box;
         }
         
         html {
@@ -97,6 +98,21 @@
             -o-transition: .2s all ease;
             transition: .2s all ease;
             position: relative;
+        }
+        
+        .navbar-center .navbar-main__link:hover::after {
+            width: 60%;
+        }
+        
+        .navbar-center .navbar-main__link::after {
+            content: "";
+            position: absolute;
+            top: 100%;
+            left: 9px;
+            width: 0;
+            transition: 0.2s all linear;
+            border-radius: 6px;
+            border-bottom: 2px solid #FF4D20;
         }
         
         .navbar-main__btn-sign-up {
