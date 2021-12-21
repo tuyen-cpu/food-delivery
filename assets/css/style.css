@@ -1046,6 +1046,34 @@
             width: 30px;
             height: 30px;
         }
+        /* Countries */
+        
+        .popular-countries {
+            padding: 50px 0 100px 0;
+        }
+        
+        .popular-countries__title {
+            font-family: Inter;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 34px;
+            line-height: 40px;
+            color: #101010;
+        }
+        
+        .popular-countries__title-wrapper {
+            margin-bottom: 40px;
+        }
+        
+        .popular-countries__countries-item {
+            font-family: Inter;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 22px;
+            margin-bottom: 22px;
+            color: #666;
+        }
         
         @media (max-width: 1399px) {
             .banner-input__input {
