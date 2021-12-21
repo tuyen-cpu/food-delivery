@@ -892,6 +892,71 @@
         .blog-item__btn--yellow {
             background: linear-gradient( 101.98deg, #FFBC2D 41.25%, #FEB618 98.64%);
         }
+        /* Install app */
+        
+        .install-app {
+            padding: 100px 0 50px;
+        }
+        
+        .install-app__img-wrapper {
+            width: 267px;
+            height: 552.78px;
+            margin: auto;
+        }
+        
+        .install-app-content {
+            padding-right: 150px;
+        }
+        
+        .install-app__desc {
+            font-family: Inter;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 28px;
+            opacity: 0.88;
+            color: #333;
+        }
+        
+        .install-app__title {
+            font-family: Inter;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 34px;
+            line-height: 40px;
+            margin-bottom: 22px;
+        }
+        
+        .install-app__btn-list {
+            margin-top: 40px;
+            display: flex;
+            justify-content: space-evenly;
+        }
+        
+        .install-app__btn-item {}
+        
+        .install-app__btn-link {
+            flex: 1;
+            padding: 14px 20px;
+            display: block;
+            text-decoration: none;
+            font-family: 'Inter';
+            font-style: normal;
+            font-size: 14px;
+            line-height: 15px;
+            letter-spacing: 0.04em;
+            color: #000000;
+            font-weight: 600;
+        }
+        
+        .install-app__btn-item {
+            border: 1.09091px solid #DBDBDB;
+            border-radius: 18.1818px;
+        }
+        
+        .install-app__btn-img {
+            margin-right: 20px;
+        }
         
         @media (max-width: 1399px) {
             .banner-input__input {
