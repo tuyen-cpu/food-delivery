@@ -414,7 +414,7 @@
             padding: 20px 0 50px 0;
         }
         
-        .commitment-app__title-wrapper {
+        .title-top-wrapper {
             width: 50%;
             text-align: center;
             margin: 0 auto 50px;
@@ -549,24 +549,6 @@
         
         .popular-app {
             padding: 50px 0;
-        }
-        
-        .popular-app__title {
-            margin: auto;
-            margin-bottom: 50px;
-            align-items: center;
-            width: 50%;
-        }
-        
-        .popular-app__title-2 {
-            font-family: Inter;
-            font-style: normal;
-            font-weight: bold;
-            font-size: 52px;
-            line-height: 62px;
-            text-align: center;
-            color: #101010;
-            margin-bottom: 0px;
         }
         
         .popular-app__item {
@@ -712,6 +694,86 @@
             width: auto;
             height: auto;
             transition: 0.3s ease all;
+        }
+        
+        .pickup-point__top {
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .pickup-point {
+            margin-left: 50px;
+        }
+        
+        .pickup-point__title {
+            font-family: Inter;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 32px;
+            line-height: 40px;
+            margin-bottom: 10px;
+            color: #101010;
+        }
+        
+        .pickup-point__desc {
+            font-family: Inter;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 15px;
+            letter-spacing: 0.005em;
+            color: #C0C0C0;
+        }
+        
+        .pickup-point-item__txt-1 {
+            font-family: Inter;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 30px;
+            letter-spacing: 0.2em;
+            color: #36BD59;
+            text-transform: uppercase;
+        }
+        
+        .pickup-point-item__txt-2 {
+            font-family: Inter;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 28px;
+            line-height: 40px;
+            color: #C7C7C7;
+        }
+        
+        .pickup-point-item {
+            border-bottom: 1.2px solid #F0F0F0;
+            margin-right: 50px;
+            margin-top: 30px;
+            margin-bottom: 10px;
+        }
+        
+        .pickup-point-item__location {
+            margin: 33px 0 20px 0;
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .pickup-point-item__name-location {
+            font-family: Inter;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 15px;
+            letter-spacing: 0.005em;
+            color: #101010;
+        }
+        
+        .map-frame {
+            padding: 0 40px;
+        }
+        
+        .map-frame iframe {
+            border-radius: 12px;
         }
         
         @media (max-width: 1399px) {
