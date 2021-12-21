@@ -78,6 +78,10 @@
         }
         /* Header */
         
+        .navbar-toggler {
+            box-shadow: none !important;
+        }
+        
         .header-app {
             padding-top: 40px;
         }
@@ -1198,5 +1202,15 @@
             }
             .category-item__img {
                 width: 100px;
+            }
+        }
+        
+        @media only screen and (max-width: 991px) {
+            .navbar-nav {
+                text-align: center;
+                align-items: center;
+            }
+            .nav-item {
+                margin: 10px 6px;
             }
         }
