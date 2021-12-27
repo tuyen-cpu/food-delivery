@@ -718,6 +718,19 @@
             margin-left: 50px;
         }
         
+        .pickup-point__img-wrapper {
+            width: 94px;
+            height: 94px;
+        }
+        
+        .pickup-point__img {
+            object-fit: contain;
+        }
+        
+        .pickup-point__txt {
+            flex: 1;
+        }
+        
         .pickup-point__title {
             font-family: Inter;
             font-style: normal;
