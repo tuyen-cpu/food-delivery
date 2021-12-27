@@ -938,10 +938,12 @@
         .install-app__btn-list {
             margin-top: 40px;
             display: flex;
-            justify-content: space-evenly;
+            justify-content: flex-start;
         }
         
-        .install-app__btn-item {}
+        .install-app__btn-item+.install-app__btn-item {
+            margin-left: 15px;
+        }
         
         .install-app__btn-link {
             flex: 1;
@@ -1212,5 +1214,90 @@
             }
             .nav-item {
                 margin: 10px 6px;
+            }
+            .install-app__btn-link {
+                padding: 10px 10px;
+            }
+            .install-app__btn-img {
+                margin-right: 12px;
+            }
+        }
+        
+        @media only screen and (max-width:767px) {
+            .banner-content__title-1 {
+                font-size: 34px;
+            }
+            .banner-content__title-2 {
+                font-size: 38px;
+            }
+            .banner-content__desc {
+                font-size: 16px;
+            }
+            .banner-input__input {
+                width: 60%;
+            }
+            .banner-register__title {
+                font-size: 16px;
+            }
+            .title-top-section-2 {
+                font-size: 40px;
+                line-height: 48px
+            }
+            .title-top-wrapper {
+                width: 100%;
+                margin-bottom: 40px;
+            }
+            .newsletter {
+                display: none;
+            }
+            .pickup-point {
+                margin-left: 0;
+            }
+            .map-frame {
+                margin-top: 30px;
+            }
+            .install-app-content {
+                padding-right: 0;
+                margin-top: 30px;
+            }
+            .subscribe-app {
+                display: none;
+            }
+            .footer-info {
+                margin-bottom: 30px;
+                text-align: center;
+            }
+            .footer-info__logo-link {
+                display: block;
+                margin-bottom: 20px;
+            }
+            .footer-info__logo {
+                margin: 0 auto;
+            }
+            .footer-info__list-social {
+                justify-content: center;
+            }
+        }
+        
+        @media only screen and (max-width:991px) {
+            .banner-app {
+                padding-top: 60px;
+            }
+            .banner-img__img {
+                width: 100%;
+                margin: 20px 0;
+            }
+            .category-app__title {
+                font-size: 26px;
+            }
+            .category-item {
+                margin: 20px 0;
+            }
+        }
+        
+        @media only screen and (max-width:575px) {
+            .category-item__img {
+                margin: 20px auto;
+                width: auto;
             }
         }
